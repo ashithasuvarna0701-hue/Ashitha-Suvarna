@@ -33,20 +33,15 @@ All academic credentials, student-verified programming ratings, in-progress proj
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (Flat Single Root Directory)
 
 ```
 ashitha/
 ├── index.html              # Main semantic HTML5 application structure
-├── css/
-│   ├── style.css           # Core design tokens, light/dark modes, responsive layout & print styles
-│   └── animations.css      # Subtle micro-interactions, pulse animations & accessibility overrides
-├── js/
-│   └── app.js              # Theme manager, mobile drawer, project filters, modal & form logic
-├── assets/
-│   ├── images/
-│   │   └── avatar.jpg      # Developer illustration avatar in orange & charcoal aesthetic
-│   └── icons/              # Scalable SVG vector icons
+├── style.css               # Core design tokens, light/dark modes, responsive layout & print styles
+├── animations.css          # Subtle micro-interactions, pulse animations & accessibility overrides
+├── app.js                  # Theme manager, mobile drawer, project filters, modal & form logic
+├── avatar.jpg              # Developer illustration avatar in orange & charcoal aesthetic
 └── README.md               # Project documentation
 ```
 
